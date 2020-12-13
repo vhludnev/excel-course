@@ -1,0 +1,39 @@
+{
+  "name": "excel-course",
+  "version": "1.0.0",
+  "description": "Pure JS Excel App",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vhludnev/excel-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascrip",
+    "excel"
+  ],
+  "author": "Vyacheslav Hludnev <vj.hludnev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vhludnev/excel-course/issues"
+  },
+  "homepage": "https://github.com/vhludnev/excel-course#readme",
+  "private": true,
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.2.1",
+    "node-sass": "^4.14.1",
+    "sass": "^1.28.0",
+    "sass-loader": "^10.0.4",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
